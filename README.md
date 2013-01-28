@@ -39,27 +39,27 @@ Configuring TimePicker, like DatePicker, is a combination of setting up config f
 * default {String} The default string representation of the time to use. Example: '8:00', '14:50'
 
 ###Ext.ux.picker.Time Configuration
-* AMText {String} The text to use for the ante-meridiem
-* PMText {String} The text to use for the post-meridiem
-* endHour {Number} The end hour for the time picker
-* endMillisecond {Number} The end millisecond for the time picker
-* endMinute {Number}The end minute for the time picker
-* endSecond {Number} The end second for the time picker
-* hourIncrement {Number} The increment value for hour
-* hourList {Array} Array of hours to use in the hour picker
-* hourText {String} The text to use for the hour title
-* meridiemText {String} The text to use for the meridiem title
-* millisecondIncrement {Number} The increment value for millisecond
-* millisecondList {String} Array of hours to use in the millisecond picker
-* millisecondText  {String} The text to use for the millisecond title
-* minuteIncrement {Number} The increment value for minute
-* minuteList {Array} Array of hours to use in the minute picker
-* minuteText {String} The text to use for the minute title
-* secondIncrement {Number} The increment value for second
-* secondList {Array} Array of hours to use in the second picker
-* secondText {String} The text to use for the second title
-* slotOrder {Array} The order of slots in the picker
-* startHour {Number} The start hour for the time picker
-* startMillisecond {Number} The start millisecond for the time picker
-* startMinute {Number} The start minute for the time picker
-* startSecond {Number} The start second for the time picker
+* *AMText* {String} The text to use for the ante-meridiem
+* *PMText* {String} The text to use for the post-meridiem
+* *endHour* {Number} The end hour for the time picker
+* *endMillisecond* {Number} The end millisecond for the time picker
+* *endMinute* {Number}The end minute for the time picker
+* *endSecond* {Number} The end second for the time picker
+* *hourIncrement* {Number} The increment value for hour
+* *hourList* {Array} Array of hours to use in the hour picker
+* *hourText* {String} The text to use for the hour title
+* *meridiemText* {String} The text to use for the meridiem title
+* *millisecondIncrement* {Number} The increment value for millisecond
+* *millisecondList* {String} Array of hours to use in the millisecond picker
+* *millisecondText*  {String} The text to use for the millisecond title
+* *minuteIncrement* {Number} The increment value for minute
+* *minuteList* {Array} Array of hours to use in the minute picker
+* *minuteText* {String} The text to use for the minute title
+* *secondIncrement* {Number} The increment value for second
+* *secondList* {Array} Array of hours to use in the second picker
+* *secondText* {String} The text to use for the second title
+* *slotOrder* {Array} The order of slots in the picker
+* *startHour* {Number} The start hour for the time picker
+* *startMillisecond* {Number} The start millisecond for the time picker
+* *startMinute* {Number} The start minute for the time picker
+* *startSecond* {Number} The start second for the time picker
