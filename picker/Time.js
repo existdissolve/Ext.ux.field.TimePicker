@@ -298,7 +298,7 @@ Ext.define('Ext.ux.picker.Time', {
                 if( Ext.Array.contains( me.getSlotOrder(), 'minute' ) ) {
                     return {
                         name: 'minute',
-                        align: 'right',
+                        align: 'center',
                         data: me.getMinuteCollection(),
                         title: me.getMinuteText(),
                         flex: 1
@@ -310,7 +310,7 @@ Ext.define('Ext.ux.picker.Time', {
                 if( Ext.Array.contains( me.getSlotOrder(), 'minute' ) && Ext.Array.contains( me.getSlotOrder(), 'second' ) ) {
                     return {
                         name: 'second',
-                        align: 'right',
+                        align: 'center',
                         data: me.getSecondCollection(),
                         title: me.getSecondText(),
                         flex: 1
@@ -325,7 +325,7 @@ Ext.define('Ext.ux.picker.Time', {
                 ) {
                     return {
                         name: 'millisecond',
-                        align: 'right',
+                        align: 'center',
                         data: me.getMillisecondCollection(),
                         title: me.getMillisecondText(),
                         flex: 1
